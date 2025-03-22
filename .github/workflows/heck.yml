@@ -6,13 +6,6 @@ on:
       - '!master'
 
 jobs:
-  check1:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: something test1
-        run: exit 1
-
   check2:
     runs-on: ubuntu-latest
 
